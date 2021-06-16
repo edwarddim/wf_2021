@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    background-color: black;
+    color: teal;
+    font-family: sans-serif;
+}
+span{
+    color: white;
+}
+.sub_title{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.contact{
+    background-color: teal;
+    text-align: right;
+    text-decoration: underline;
+}

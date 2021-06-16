@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    padding: 20px;
+}
+
+#search{
+    border-radius: 10px;
+    text-align: center;
+    background-color: skyblue;
+    margin-bottom: 10px ;
+}
+
+.plus{
+    height: 60px;
+    width: 65px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: seagreen;
+}
+
+.plus > p{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.create{
+    background-color: navy;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+.shadow{
+    display: inline-block;
+    box-shadow: 5px 10px;
+}

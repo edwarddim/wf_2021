@@ -1,0 +1,24 @@
+/* 
+SELECTOR{
+    ATTRIBUTES : PROPERTIES;
+}
+
+1. SELECTOR
+*/
+
+body{
+    background-color: indianred;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#header{ /* SELECTING ID */
+    background-color: mediumspringgreen;
+    color: blue;
+    display: inline-block;
+}
+
+.subheader{ /* SELECTING CLASS */
+    background-color: grey;
+    display: inline-block;
+}

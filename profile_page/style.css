@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", 'sans-serif';
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: hsl(0deg 0% 20%);
+}
+
+.nav-title{
+    color: white;
+    margin-right: 5px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.nav-links > li{
+    list-style-type: none;
+    margin: 0px 5px;
+}
+
+.nav-links > li > a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+
+.btn{
+    background-color: teal;
+    color: white;
+    padding: 10px 5px;
+}
+
+
+.row{
+    display: flex;
+}
+
+.main-col{
+    flex: 8;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.side-col{
+    flex: 4;
+    padding: 20px;
+    margin: 10px 0px;
+} 
+
+.card{
+    font-size: 1.2rem;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    width: 100%;
+    margin: 0 auto;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.main-info-body h4,
+.main-info-body p,
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.card-body{
+    margin-top: 100px;
+    padding: 25px;
+}
+.icon-s{
+    height: 20px;
+}
+
+.icon-m{
+    height: 30px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.column-card{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.column-card-head{
+    display: flex;
+    background-color: darkslategray;
+    padding: 10px;
+}
+
+.column-card-head h1{
+    padding-left: 10px;
+}
+
+.request-icon{
+    border-radius: 50%;
+    background-color: darkgrey;
+    width: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.request-icon-oblong{
+    border-radius: 50%;
+    background-color: darkgrey;
+    width: 25px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.column-card-head h1{
+    color: white;
+}
+
+.connection-pending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.connection-info{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 0px 5px;
+    margin: 5px 0px;
+}
+
+.connection-info img{
+    margin-right: 10px;
+}
+
+.expand-connections{
+    padding: 10px;
+    border-top: 1px solid grey;
+    font-size: 1.2rem;
+}
+
+.main-info{
+    border: 1px solid grey;
+}
+
+.main-info-header{
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+}
+
+.main-info-body{
+    padding: 10px;
+}
