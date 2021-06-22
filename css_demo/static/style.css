@@ -1,0 +1,51 @@
+/* 
+CASCADING STYLE SHEETS
+*/
+
+/* 
+
+SELECTOR{
+    ATTRIBUTES : PROPERTIES;
+}
+
+*/
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: seagreen;
+}
+
+/* h1{
+    color: dodgerblue;
+    background-color: black;
+}
+
+p{
+    color: white;
+} */
+
+/* IDs and Classes */
+#header{
+    color: dodgerblue;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-blue{
+    color: dodgerblue;
+}
+
+#footer > div > h3,
+#footer > h3{
+    color: white;
+}
