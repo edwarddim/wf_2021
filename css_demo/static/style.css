@@ -16,8 +16,10 @@ SELECTOR{
     padding: 0;
 }
 
-body{
+.container{
     background-color: seagreen;
+    min-height: 500px;
+    padding: 20px;
 }
 
 /* h1{
@@ -34,11 +36,18 @@ p{
     color: dodgerblue;
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 300px;
+    margin: 0px 50px 20px 0px;
+    display: inline-block;
+}
+
+#explanation{
+    display: inline-block;
+    vertical-align:top;
 }
 
 .text-white{
     color: white;
+    margin-bottom: 10px;
 }
 
 .text-blue{
