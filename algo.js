@@ -96,3 +96,72 @@ var numbers = [3, 4, -2, 7, 16, -8, 0];
 // CHECK TO SEE IF THE NUMBERS IN ARRAY ARE GREATER OR EQUAL TO 0 (CONDITIONAL)
     
 console.log("there are " + countPositives + " positive values");
+
+
+
+// FUNCTIONS
+// DEFINING FUNCTION VS CALLING FUNCTION
+// PARAMETERS VS ARGUMENTS
+
+// DEFINE THE FUNCTION
+function double(someNumber){
+    var result = someNumber * 2
+    return result
+}
+
+// CALL THE FUNCTION
+console.log(double(4))
+console.log(double(-4))
+console.log(double(0))
+console.log(double("edward"))
+
+function add(x,y){
+    var results = x + y
+    return results
+}
+
+var answer = add(4,5)
+var answer2 = add(100,100)
+console.log(answer)
+console.log(answer2)
+
+
+var x = 5;
+    
+function setX(newValue) {
+    var x = newValue; 
+}
+    
+console.log(x);
+setX(15);
+console.log(x);
+
+// ----------------------------------
+var x = 5;
+    
+function addToX(amount) {
+    return x + amount;
+    console.log("hello there");
+}
+    
+console.log(x);
+var result = addToX(-10);
+console.log(result);
+console.log(x);
+
+// ----------------------------------
+function isPal(arr) {
+    for(var left=0; left<arr.length/2; left++) {
+        var right = arr.length-1-left;
+        if(arr[left] != arr[right]) {
+            return "Not a pal-indrome!";
+        }
+    }
+    return "Pal-indrome!";
+}
+    
+var result1 = isPal( [1, 1, 2, 2, 1] );
+console.log(result1);
+    
+var result2 = isPal( [3, 2, 1, 1, 2, 3] );
+console.log(result2);

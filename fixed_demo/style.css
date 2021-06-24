@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1000px;
+    min-height: 700px;
+    /* padding: 15px; */
+    margin: 0 auto;
+    outline: 1px solid black;
+}
+
+header{
+    background-color: dodgerblue;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+main{
+    /* margin-top: 60px; */
+}
+
+h3{
+    scroll-margin-top: 50px;
+}
