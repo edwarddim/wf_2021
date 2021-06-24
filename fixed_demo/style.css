@@ -3,24 +3,29 @@
     padding: 0;
 }
 
-
 .container{
-    max-width: 1000px;
+    width: 1000px;
     min-height: 700px;
-    /* padding: 15px; */
     margin: 0 auto;
     outline: 1px solid black;
 }
 
 header{
+    width: inherit;
     background-color: dodgerblue;
-    padding: 10px;
-    width: 100%;
+    padding: 15px 0px;
     position: fixed;
+    top: 0;
+    display: flex;
 }
 
+header *{
+    margin-left: 15px;
+}
+
+
 main{
-    /* margin-top: 60px; */
+    padding: 60px 15px 15px 15px;
 }
 
 h3{
