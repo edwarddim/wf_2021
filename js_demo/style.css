@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: dodgerblue;
+}
+
+#header{
+    background-color: black;
+    color: white;
+}

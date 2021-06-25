@@ -165,3 +165,53 @@ console.log(result1);
     
 var result2 = isPal( [3, 2, 1, 1, 2, 3] );
 console.log(result2);
+
+
+//-------------------------------------------
+/* 
+'||''''| '||''|.   '||' '||''|.       |     '||' '|' 
+ ||  .    ||   ||   ||   ||   ||     |||      || |   
+ ||''|    ||''|'    ||   ||    ||   |  ||      ||    
+ ||       ||   |.   ||   ||    ||  .''''|.     ||    
+.||.     .||.  '|' .||. .||...|'  .|.  .||.   .||.   
+*/
+
+// HOW TO SWAP VARIABLES
+var fruit1 = "apples"
+var fruit2 = "oranges"
+
+var temp = fruit1
+fruit1 = fruit2
+fruit2 = temp
+
+
+var start = 0;
+var end = 12;
+    
+while(start < end) {
+    console.log("start: " + start + ", end: " + end);
+    start += 2;
+    end -= 2;
+}
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max) + 1
+}
+
+var randomInt = getRandomInt(20)
+while(randomInt != 20){
+    console.log("You rolled a " + randomInt + " try again")
+    console.log(`You rolled a ${randomInt} try again`)
+    randomInt = getRandomInt(20)
+}
+console.log("CONGRATS you rolled a 20")
+
+// REVERSE AN ARRAY
+// CREATE A FUNCTION WHERE GIVEN AN ARRAY YOU REVERSE THE ARRAY AND RETURN THE ARRAY
+// ["a", "b", "c", "d", "e"] => ["e", "d", "c", "b", "a"]
+
+// CREATE A FUNCTION WRAPPER (1 param / array type)
+// ITERATE THROUGHT ARRAY (FOR LOOP)
+// NEED A TEMP VARIABLE TO STORE A VALUE
+// SWAP THE VALUES WITHIN THE ARRAY
+// RETURN THE ARRAY
