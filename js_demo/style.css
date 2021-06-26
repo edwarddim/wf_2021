@@ -6,10 +6,19 @@
 .container{
     width: 400px;
     height: 400px;
-    background-color: dodgerblue;
 }
 
 #header{
     background-color: black;
     color: white;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.light-mode{
+    background-color: dodgerblue;
+    color: black;
 }
