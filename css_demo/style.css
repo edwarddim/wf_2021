@@ -1,0 +1,40 @@
+/* 
+SELECTOR{
+    ATTRIBUTE : PROPERTY;
+}
+
+SELECTOR - TARGET HTML ELEMENTS
+ATTRIBUTE - NAME OF THE ATTRIBUTE
+PROPERTY - VALUE OF THE ATTRIBUTE
+*/
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* YOUR OWN CSS CODE */
+h1{
+    color: red;
+}
+
+#header{
+    color: blue;
+    background-color: black;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+
+.subheader{
+    color: red;
+    background-color: black;
+    box-shadow: 5px 10px;
+    width: 200px;
+}
+
+.inline-block{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
