@@ -1,0 +1,12 @@
+h1{
+    color: blue;
+}
+
+.subsection{
+    width: 200px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
