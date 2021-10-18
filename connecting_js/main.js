@@ -43,3 +43,18 @@ function clickFunction(element){
 // function clickTwo(){
 //     countTwo++
 // }
+
+
+function lightMode(){
+    console.log("LIFGHT MODE")
+    var container = document.querySelector("#container")
+    container.classList.remove("dark-mode")
+    container.classList.add("light-mode")
+}
+
+function darkMode(){
+    console.log("DARK MODE")
+    var container = document.querySelector("#container")
+    container.classList.remove("light-mode")
+    container.classList.add("dark-mode")
+}
