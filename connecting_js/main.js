@@ -4,13 +4,42 @@ console.log("hello world")
 // alert("Are you seeing this?")
 
 
-var answer = confirm("Do you want to accept all cookies????")
+// var answer = confirm("Do you want to accept all cookies????")
 
-console.log(answer)
+// console.log(answer)
 
-if(answer){
-    console.log("the user clicked on YES")
+// if(answer){
+//     console.log("the user clicked on YES")
+// }
+// else{
+//     console.log("the user clicked on NO")
+// }
+
+var clicked = 0
+var countOne = 0
+var countTwo = 0
+// DEFINING THE FUNCTION
+function clickFunction(element){
+    // console.log(element.id)
+    if(element.name === "button_one"){
+        countOne++
+        // console.log("COUNT ONE: ", countOne)
+        element.innerText = "I have been clicked " + countOne
+    }
+    else{
+        countTwo++
+        // console.log("COUNT TWO: ", countTwo)
+        element.innerText = "I have been clicked " + countTwo
+    }
+    clicked++
+    console.log(clicked)
 }
-else{
-    console.log("the user clicked on NO")
-}
+
+
+// function clickOne(){
+//     countOne++
+// }
+
+// function clickTwo(){
+//     countTwo++
+// }
