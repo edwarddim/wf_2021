@@ -1,0 +1,38 @@
+/* 
+SELECTOR{
+    ATTRIBUTE : PROPERTY;
+}
+
+
+*/
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* MY OWN CSS CODE */
+h1{
+    color: red;
+}
+
+#intro_title{
+    color: rebeccapurple;
+}
+
+.subsection_title{
+    color: green;
+    width: 330px;
+    height: 40px;
+
+    text-align: center;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+#container > p{
+    color: blue;
+}
