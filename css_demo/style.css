@@ -13,20 +13,31 @@ SELECTOR{
 }
 
 /* MY OWN CSS CODE */
-h1{
+/* h1{
     color: red;
+} */
+
+#container{
+    padding: 0 10px;
+    width: 1200px;
 }
 
 #intro_title{
     color: rebeccapurple;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
-.subsection_title{
-    color: green;
+.subsection_body{
+    display: inline-block;
     width: 330px;
-    height: 40px;
+}
 
+.subsection_body > h2{
+    color: green;
+    height: 40px;
     text-align: center;
+    padding: 5px 0px;
 }
 
 .bg-black{
@@ -35,4 +46,19 @@ h1{
 
 #container > p{
     color: blue;
+    border: 2px solid green;
 }
+
+.middle_space{
+    margin: 0px 101px;
+}
+
+.title{
+    color: white;
+    background-color: black;
+}
+
+.title > span{
+    color: navy;
+}
+
