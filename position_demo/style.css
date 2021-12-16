@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1200px;
+    min-height: 4000px;
+    padding: 5px;
+    background-color: teal;
+}
+
+h1{
+    position: relative;
+    left: 10px;
+}
+h2{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
