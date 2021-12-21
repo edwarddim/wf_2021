@@ -45,3 +45,73 @@ function changeColor(element){
     // element.style.backgroundColor = "black"
     element.remove()
 }
+
+function inputHandler(element){
+    // console.log("EXECUTING INPUT HANDLER")
+    console.log(element.value)
+
+    // TARGET THE HTML TO DISPLAY
+    var name = document.querySelector("#displayBox > h1")
+
+    // name.innerText = "Name: "
+    // name.innerText += element.value
+
+    name.innerText = `Name: ${element.value}`
+}
+
+function chooseLunch(element){
+    console.log(element.value)
+}
+
+
+
+function checkUser(){
+    var answer = confirm("Are you still watching??")
+    if(answer){
+        console.log("Keep playing")
+    }
+    else{
+        console.log("Shut off Netflix")
+    }
+}
+
+// 1. CALLBACK FUNCTION
+// 2. THE AMOUNT OF MILLISECONDS YOU WANT TO WAIT
+// setTimeout(checkUser, 5000)
+
+
+// JAVASCRIPT FUNCTIONALITIES
+// CHANGING IMAGES
+// USE THE ALERT/CONFIRM WINDOW
+// REMOVING ELEMENTS FROM THE HTML
+// INCREASING THE COUNT OF THE CLICKS
+// DISPLAY VALUES IN A GIVEN INPUT
+
+
+
+
+// DARK MODE AND LIGHT MODE
+function turnLight(){
+    var container = document.querySelector("#container")
+    container.classList.remove("dark-mode")
+    container.classList.add("light-mode")
+}
+
+function turnDark(){
+    var container = document.querySelector("#container")
+    container.classList.remove("light-mode")
+    container.classList.add("dark-mode")
+}
+
+
+function toggleMode(){
+    var container = document.querySelector("#container")
+    if(container.classList.contains("light-mode")){
+        container.classList.remove("light-mode")
+        container.classList.add("dark-mode")
+    }
+    else{
+        container.classList.remove("dark-mode")
+        container.classList.add("light-mode")
+    }
+}

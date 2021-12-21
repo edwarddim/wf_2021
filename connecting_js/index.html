@@ -9,7 +9,10 @@
     <title>CONNECTING JS</title>
 </head>
 <body>
-    <div id="container">
+    <div id="container" class="light-mode">
+        <button onclick="turnLight()" class="light">Light</button>
+        <button onclick="turnDark()" class="dark">Dark</button>
+        <button onclick="toggleMode()" class="toggle">Toggle</button>
         <h1 id="title">You have clicked this button 0 times</h1>
         <h1 onclick="clickHandler()" onmouseenter="console.log('H1 HOVER EVENT')">Hello World</h1>
         <button onclick="clickHandler()">Click Me!!!</button>
@@ -19,6 +22,23 @@
         <h2 onclick="changeColor(this)">About Me</h2>
         <h2 onclick="changeColor(this)">Contact Me</h2>
     
+        <form action="">
+            <p>
+                Search:
+                <input oninput="inputHandler(this)" type="text" name="name" id="">
+            </p>
+            <p>
+                <label>I would like to eat </label>
+                <select onchange="chooseLunch(this)">
+                    <option>Tacos</option>
+                    <option>Pasta</option>
+                    <option>Sushi</option>
+                </select>
+            </p>
+        </form>
+        <div id="displayBox">
+            <h1>Name: </h1>
+        </div>
     
     </div>
     
