@@ -1,0 +1,34 @@
+/*
+SELECTOR{
+    ATTRIBUTE : PROPERTY;
+}
+*/
+
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* OUR CSS CODE */
+
+#container{
+    width: 970px;
+    min-height: 200px;
+    background-color: beige;
+    padding: 20px;
+}
+
+
+/* TARGET AN ID */
+#intro_title{
+    color: red;
+}
+
+/* TARGET A CLASS */
+.subheader{
+    color: blue;
+    margin-bottom: 25px;
+}
