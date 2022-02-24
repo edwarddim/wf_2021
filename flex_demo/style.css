@@ -35,14 +35,27 @@ SELECTOR{
     margin-bottom: 25px;
 } */
 
-.card{
-    display: inline-block;
-    width: 250px;
-    vertical-align: top;
-    margin-left: 60px;
-}
-
 .dark_mode{
     background-color: black;
     color: beige;
+}
+
+.card{
+    width: 250px;
+}
+
+#body{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* #cookies{
+    color: white;
+    position: fixed;
+    bottom: 50px;
+} */
+
+#cookies{
+    color: white;
+    position:relative;
 }
