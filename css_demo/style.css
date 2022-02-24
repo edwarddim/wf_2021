@@ -17,18 +17,31 @@ SELECTOR{
 #container{
     width: 970px;
     min-height: 200px;
-    background-color: beige;
     padding: 20px;
+    background-color: black;
 }
 
 
 /* TARGET AN ID */
 #intro_title{
     color: red;
+    text-align: center;
 }
 
 /* TARGET A CLASS */
-.subheader{
-    color: blue;
+/* .subheader{
+    color: beige;
+    background-color: black;
     margin-bottom: 25px;
+} */
+
+.card{
+    display: inline-block;
+    width: 320px;
+    vertical-align: top;
+}
+
+.dark_mode{
+    background-color: black;
+    color: beige;
 }
