@@ -1,0 +1,97 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1500px;
+}
+
+
+/*-------------- NAVBAR--------------- */
+#navbar{
+    background-color: #0c4b33;
+    min-height: 75px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo > h1{
+    color: white;
+    margin-right: 15px;
+}
+
+#logo > p{
+    color: #44b78b;
+    width: 200px;
+}
+
+#quick-links{
+    list-style-type: none;
+    display: flex;
+}
+
+#quick-links li{
+    margin: 0px 5px;
+}
+
+#quick-links a{
+    text-decoration: none;
+    color: white;
+}
+/*-------------- NAVBAR--------------- */
+
+/*-------------- BANNER--------------- */
+#banner{
+    padding: 75px 0;
+}
+
+#banner > h1{
+    text-align: center;
+    width: 725px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#banner > button{
+    color: white;
+    background-color: green;
+    display: block;
+    margin: 0 auto;
+    width: 275px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15pt;
+}
+/*-------------- BANNER--------------- */
+
+/*-------------- BODY--------------- */
+
+#body{
+    display: flex;
+}
+
+
+#left-col{
+    min-height: 100px;
+    background-color: red;
+    flex: 3;
+}
+#right-col{
+    min-height: 100px;
+    background-color: blue;
+    flex: 2;
+}
+
+
+
+/*-------------- BODY--------------- */
