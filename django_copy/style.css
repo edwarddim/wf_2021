@@ -52,6 +52,7 @@
 /*-------------- BANNER--------------- */
 #banner{
     padding: 75px 0;
+    border-bottom: 1px solid grey;
 }
 
 #banner > h1{
@@ -61,7 +62,8 @@
     margin-bottom: 50px;
 }
 
-#banner > button{
+
+.button-green{
     color: white;
     background-color: green;
     display: block;
@@ -80,18 +82,67 @@
     display: flex;
 }
 
-
 #left-col{
     min-height: 100px;
-    background-color: red;
     flex: 3;
+    padding: 50px 0px;
+    padding-left: 100px;
+    padding-right: 25px;
 }
-#right-col{
-    min-height: 100px;
-    background-color: blue;
-    flex: 2;
+#introduction > h1{
+    margin-bottom: 25px;
 }
 
+.info{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.icon{
+    width: 25px;
+}
+
+.img-bg{
+    background-color: green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.info-body > p{
+    margin: 10px 0px;
+}
+
+
+
+
+#right-col{
+    min-height: 100px;
+    background-color: #f8f8f8;
+    flex: 2;
+    padding: 20px 40px;
+}
+
+.text-grey{
+    color: #c9f0dd;
+}
+
+.release{
+    border-bottom: 1px solid grey;
+}
+
+.release > a{
+    display: block;
+    text-decoration: none;
+    color: green;
+    margin: 20px 0px;
+    text-align: center;
+}
 
 
 /*-------------- BODY--------------- */
