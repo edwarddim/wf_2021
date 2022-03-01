@@ -10,10 +10,21 @@
 </head>
 <body>
     <div id="container">
-        <h1 onmouseover="hoverHandler(this)">This is a h1</h1>
+        <!-- <h1 onmouseover="hoverHandler(this)">This is a h1</h1>
         <button onmouseover="overHandler()" onclick="clickHandler(this)">Click me!!</button>
         <button onclick="loginHandler(this)">Login</button>
-        <button onclick="logoutHandler(this)">Logout</button>
+        <button onclick="logoutHandler(this)">Logout</button> -->
+
+
+
+        <h1 class="top-likes">13 likes</h1>
+        <button class="likes" onclick="likeHandler()">Like</button>
+
+        <h1 class="bottom-likes">34 likes</h1>
+        <button onclick="otherLikeHandler()">Like</button>
+
+
+        <button class="dark-mode" onclick="setActive(this)">Test</button>
     </div>
     <!-- LINK JAVASCRIPT FILE -->
     <script src="main.js"></script>

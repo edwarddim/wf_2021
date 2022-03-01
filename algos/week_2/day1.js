@@ -11,7 +11,7 @@ var userInfo = ["Edward", "Im", 31, "Los Angeles"]
 // console.log(userInfo)
 // userInfo[3] = "Boise"
 // console.log(userInfo)
-// console.log(userInfo[3])
+console.log(userInfo[3])
 
 
 

@@ -2,6 +2,14 @@ console.log("Hello World")
 
 
 
+
+/* 
+__     ___    _   _ ___ _     _        _          _ ____  
+\ \   / / \  | \ | |_ _| |   | |      / \        | / ___| 
+ \ \ / / _ \ |  \| || || |   | |     / _ \    _  | \___ \ 
+  \ V / ___ \| |\  || || |___| |___ / ___ \  | |_| |___) |
+   \_/_/   \_\_| \_|___|_____|_____/_/   \_\  \___/|____/ 
+*/
 // VANILLA JS METHODS
 // alert("Welcome to my Page!!!")
 
@@ -17,6 +25,14 @@ console.log("Hello World")
 // }
 
 
+
+/* 
+ ____   ___  __  __       ___ _   _ _____ ____   ___  
+|  _ \ / _ \|  \/  |     |_ _| \ | |_   _|  _ \ / _ \ 
+| | | | | | | |\/| |      | ||  \| | | | | |_) | | | |
+| |_| | |_| | |  | |      | || |\  | | | |  _ <| |_| |
+|____/ \___/|_|  |_|     |___|_| \_| |_| |_| \_\\___/ 
+*/
 // EVENT HANDLER FUNCTION
 // 1. DEFINE THE FUNCTION
 function clickHandler(element){
@@ -47,11 +63,62 @@ function hoverHandler(element){
 
 
 
-// DOM MANIPULATION
-console.log(document)
+/* 
+ ____   ___  __  __       __  __    _    _   _ ___ ____  _   _ _        _  _____ ___ ___  _   _ 
+|  _ \ / _ \|  \/  |     |  \/  |  / \  | \ | |_ _|  _ \| | | | |      / \|_   _|_ _/ _ \| \ | |
+| | | | | | | |\/| |     | |\/| | / _ \ |  \| || || |_) | | | | |     / _ \ | |  | | | | |  \| |
+| |_| | |_| | |  | |     | |  | |/ ___ \| |\  || ||  __/| |_| | |___ / ___ \| |  | | |_| | |\  |
+|____/ \___/|_|  |_|     |_|  |_/_/   \_\_| \_|___|_|    \___/|_____/_/   \_\_| |___\___/|_| \_|
+                                                                                                
+*/
+// console.log(document)
 
 
 // Targeting HTML elements
-var container = document.querySelector("#container")
-console.log("CONTAINER: ", container)
+// var container = document.querySelector("#container")
+// console.log("CONTAINER: ", container)
 
+
+var likes = 13
+function likeHandler(){
+    // console.log("like button cliked")
+    // alert("Ninja was liked")
+    likes++
+    // console.log("LIKES: ", likes)
+
+    // DISPLAY THE CURRENT NUMBER OF LIKES ON THE HTML
+
+    // 1. TARGET THE CORRECT HTML ELEMENT
+    var h1 = document.querySelector(".top-likes")
+    console.log(h1.innerText)
+    // 2. CHANGE THE INNNER TEXT
+    h1.innerText = likes + " likes"
+}
+
+
+var otherLikes = 34
+function otherLikeHandler(){
+    otherLikes++
+
+    // 1. TARGET THE HTML
+    var h1 = document.querySelector(".bottom-likes")
+    // 2. CHANGE THE INNNER TEXT
+    h1.innerText = otherLikes + " likes"
+    h1.style.backgroundColor = "black"
+    h1.style.color = "white"
+}
+
+
+function setActive(element) {
+
+    console.log(element.classList)
+    if(element.classList.contains("dark-mode")) {
+        element.innerText = "Switch to dark mode";
+        element.classList.remove("dark-mode");
+        element.classList.add("light-mode")
+    } else {
+        element.innerText = "Switch to light mode";
+        element.classList.remove("light-mode");
+        element.classList.add("dark-mode");
+    }
+}
