@@ -110,7 +110,6 @@ function otherLikeHandler(){
 
 
 function setActive(element) {
-
     console.log(element.classList)
     if(element.classList.contains("dark-mode")) {
         element.innerText = "Switch to dark mode";
@@ -121,4 +120,36 @@ function setActive(element) {
         element.classList.remove("light-mode");
         element.classList.add("dark-mode");
     }
+}
+
+
+
+// TIMEOUT
+// 1. CALLBACK FUNCTION
+// 2. MILLISECONDS AMOUNT TO WAIT
+
+function test(){
+    console.log("4 seconds have passed")
+}
+
+// setTimeout( test, 4000)
+
+
+// setTimeout(function(){
+//     confirm("ARE YOU STILL WATCHING????")
+// },2000)
+
+
+
+function chooseLunch(element) {
+    alert("You picked " + element.value);
+}
+
+
+// 
+var nameTag = document.querySelector("#name-tag");
+
+function setName(element) {
+    console.log(element.value);
+    nameTag.innerText = element.value;
 }

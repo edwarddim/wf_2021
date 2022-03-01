@@ -25,6 +25,25 @@
 
 
         <button class="dark-mode" onclick="setActive(this)">Test</button>
+        
+        <hr>
+
+        <label>I would like to eat </label>
+        <select onchange="chooseLunch(this)">
+            <option>Tacos</option>
+            <option>Pasta</option>
+            <option>Sushi</option>
+        </select>
+
+        <hr>
+
+        <div class="card">
+            <p>Hello my name is:</p>
+            <h3 id="name-tag">Example</h3>
+        </div>
+            
+        <input type="text" value="Example" oninput="setName(this)">
+
     </div>
     <!-- LINK JAVASCRIPT FILE -->
     <script src="main.js"></script>
