@@ -1,0 +1,20 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* OUR OWN CSS */
+#container{
+    width: 1200px;
+    min-height: 200px;
+    background-color: beige;
+}
+
+.logo{
+    width: 200px;
+}
+
+img{
+    width: 200px;
+}

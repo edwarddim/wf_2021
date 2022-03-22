@@ -37,3 +37,11 @@ SELECTOR{
 .body > h2{
     color: rebeccapurple;
 }
+
+
+.column{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+
+}
