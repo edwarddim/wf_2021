@@ -1,0 +1,39 @@
+/* 
+
+SELECTOR{
+    ATTRIBUTE : PROPERTY;
+}
+
+*/
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* OUR CSS CODE */
+
+#container{
+    width: 1200px;
+    padding: 25px;
+}
+
+
+#header{
+    color: red;
+}
+
+.body{
+    margin-top:20px;
+}
+
+/* .subheader{
+    color: rebeccapurple;
+} */
+
+
+.body > h1,
+.body > h2{
+    color: rebeccapurple;
+}
