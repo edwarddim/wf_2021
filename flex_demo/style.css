@@ -12,11 +12,16 @@
     padding: 25px;
 }
 
-#main{
+.row{
     display: flex;
     justify-content: space-between;
 }
 
 .column{
-    width: 20%;
+    /* width: 20%; */
+    flex: 1;
+}
+
+.column-2{
+    flex: 2;
 }
