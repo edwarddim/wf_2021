@@ -7,7 +7,7 @@
 /* MY CSS CODE */
 #container{
     width: 1200px;
-    min-height: 200px;
+    min-height: 1200px;
     background-color: beige;
     padding: 25px;
 }
@@ -24,4 +24,24 @@
 
 .column-2{
     flex: 2;
+}
+
+
+#cookies{
+    border: 2px solid black;
+    display: flex;
+
+    /* position: fixed;
+    bottom: 20px;
+    left: 20px; */
+
+
+    position: relative;
+    bottom: 20px;
+}
+
+
+.dark-mode{
+    color: white;
+    background-color: black;
 }
