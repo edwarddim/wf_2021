@@ -79,3 +79,76 @@
     border: none;
 }
 /* BANNER CSS */
+
+
+/* MAIN BODY CSS */
+/* .left-col,
+.right-col{
+    display: inline-block;
+    min-height: 200px;
+}
+
+
+.left-col{
+    width: 66%;
+    background-color: blue;
+    padding-left: 20px;
+}
+
+.right-col{
+    width: 33%;
+    background-color: red;
+} */
+
+.card,
+#main-body{
+    display: flex;
+}
+.left-col{
+    flex: 2;
+    min-height: 200px;
+    padding-left: 20px;
+}
+.right-col{
+    flex: 1;
+    background-color: red;
+    min-height: 200px;
+}
+
+#introduction > h1{
+    margin: 15px 0px;
+}
+#introduction > p{
+    margin-bottom: 20px;
+}
+
+.card{
+    align-items: center;
+}
+
+.card img{
+    width: 40px;
+}
+
+.card-body{
+    padding-left: 10px;
+    margin: 15px 0px;
+}
+
+.card-body > p{
+    margin: 10px 0px;
+}
+
+.icon-bg{
+    background-color: green;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* MAIN BODY CSS */
