@@ -10,7 +10,19 @@
 </head>
 <body>
     <div id="container">
-        <h1>Hello World</h1>
+        <h1 onmouseenter="mouseEnterHandler(this)" onmouseover="console.log('MOUSE OVER')">Hello World</h1>
+        <button onclick="clickHandler(this)">Register</button>
+        <button onclick="clickHandler(this)">Login</button>
+
+        <div onclick="clickHandler(this)">
+            <h1>Hello</h1>
+            <h2>World</h2>
+        </div>
+
+        <button onclick="darkMode()">Dark Mode</button>
+        <button onclick="liteMode()">Lite Mode</button>
+
+
     </div>
     <!-- LINK JS -->
     <script src="main.js"></script>

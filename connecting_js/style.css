@@ -7,4 +7,10 @@
     width: 1200px;
     min-height: 200px;
     background-color: beige;
+    padding: 15px;
 }
+
+/* #container > h1{
+    color: white;
+    background-color: black;
+} */
