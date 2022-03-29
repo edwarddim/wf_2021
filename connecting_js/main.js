@@ -93,3 +93,17 @@ function setActive(element) {
         element.classList.add("dark-mode");
     }
 }
+
+
+
+
+function loginHandler(){
+    // TARGETING THE LOGIN BUTTON
+    var button = document.querySelector("#login")
+    // CHANGE THE BUTTON TEXT TO LOGOUT
+    button.innerText = "LOGOUT"
+}
+
+function loginHandler2(element){
+    element.innerText = "LOGOUT"
+}

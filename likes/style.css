@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1200px;
+    min-height: 200px;
+    background-color: beige;
+}
+
+
+.left-col{
+    width: 500px;
+    min-height: 100px;
+    background-color: red;
+}
+
+.right-col{
+    width: 500px;
+    min-height: 100px;
+    background-color: blue;
+}
+
+
+/* .left-col,
+.right-col{
+    display: inline-block;
+} */
+
+
+.body{
+    display: flex;
+}
+
+img{
+    width: 50px;
+}
+
+.left-col > h1{
+    display: inline-block;
+}
+
+#main_image{
+    width: 400px;
+}
