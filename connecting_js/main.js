@@ -61,3 +61,35 @@ function liteMode(){
 
 // 1. EVENT LISTENER - HTML
 // 2. EVENT HANDLER FUNCTION - JavaScript
+
+// METHOD - QUERY SELECTOR
+var likes = 13
+function likeHandler(){
+    // INCREMENT LIKES
+    likes++
+    // TARGETING THE BUTTON USING QUERY SELECTOR
+    var likesButton = document.querySelector(".likes")
+    likesButton.innerText = likes + " Like(s)"
+}
+
+
+// METHOD - this
+var likes2 = 37
+function likeHandler2(element){
+    // INCREMENT LIKES
+    likes2++
+    // ELEMENT REPRESENTS THE BUTTON
+    element.innerText = likes2 + " Like(s)"
+}
+
+
+function setActive(element) {
+    if(element.classList.contains("dark-mode")) {
+        element.innerText = "Switch to light mode";
+        element.classList.remove("dark-mode");
+    } 
+    else {
+        element.innerText = "Switch to dark mode";
+        element.classList.add("dark-mode");
+    }
+}
