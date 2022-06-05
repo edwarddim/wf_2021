@@ -1,0 +1,61 @@
+/*
+SELECTOR{
+    ATTRIBUTE : PROPERTY;
+}
+*/
+
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* OUR CSS CODE */
+
+#container{
+    width: 970px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: black;
+}
+
+
+/* TARGET AN ID */
+#intro_title{
+    color: red;
+    text-align: center;
+}
+
+/* TARGET A CLASS */
+/* .subheader{
+    color: beige;
+    background-color: black;
+    margin-bottom: 25px;
+} */
+
+.dark_mode{
+    background-color: black;
+    color: beige;
+}
+
+.card{
+    width: 250px;
+}
+
+#body{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* #cookies{
+    color: white;
+    position: fixed;
+    bottom: 50px;
+} */
+
+#cookies{
+    color: white;
+    position:relative;
+}

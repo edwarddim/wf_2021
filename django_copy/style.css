@@ -1,0 +1,148 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1500px;
+}
+
+
+/*-------------- NAVBAR--------------- */
+#navbar{
+    background-color: #0c4b33;
+    min-height: 75px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo > h1{
+    color: white;
+    margin-right: 15px;
+}
+
+#logo > p{
+    color: #44b78b;
+    width: 200px;
+}
+
+#quick-links{
+    list-style-type: none;
+    display: flex;
+}
+
+#quick-links li{
+    margin: 0px 5px;
+}
+
+#quick-links a{
+    text-decoration: none;
+    color: white;
+}
+/*-------------- NAVBAR--------------- */
+
+/*-------------- BANNER--------------- */
+#banner{
+    padding: 75px 0;
+    border-bottom: 1px solid grey;
+}
+
+#banner > h1{
+    text-align: center;
+    width: 725px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.button-green{
+    color: white;
+    background-color: green;
+    display: block;
+    margin: 0 auto;
+    width: 275px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15pt;
+}
+/*-------------- BANNER--------------- */
+
+/*-------------- BODY--------------- */
+
+#body{
+    display: flex;
+}
+
+#left-col{
+    min-height: 100px;
+    flex: 3;
+    padding: 50px 0px;
+    padding-left: 100px;
+    padding-right: 25px;
+}
+#introduction > h1{
+    margin-bottom: 25px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.icon{
+    width: 25px;
+}
+
+.img-bg{
+    background-color: green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.info-body > p{
+    margin: 10px 0px;
+}
+
+
+
+
+#right-col{
+    min-height: 100px;
+    background-color: #f8f8f8;
+    flex: 2;
+    padding: 20px 40px;
+}
+
+.text-grey{
+    color: #c9f0dd;
+}
+
+.release{
+    border-bottom: 1px solid grey;
+}
+
+.release > a{
+    display: block;
+    text-decoration: none;
+    color: green;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+/*-------------- BODY--------------- */

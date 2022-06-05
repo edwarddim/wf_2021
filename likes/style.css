@@ -1,0 +1,10 @@
+#quick-links{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
