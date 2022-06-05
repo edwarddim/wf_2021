@@ -1,0 +1,14 @@
+.container{
+    min-width: 1000px;
+    min-height: 1000px;
+    outline: 1px solid black;
+}
+
+.box{
+    width: 100px;
+    height: 500px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+}
+

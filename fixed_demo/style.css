@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    min-height: 700px;
+    margin: 0 auto;
+    outline: 1px solid black;
+}
+
+header{
+    width: inherit;
+    background-color: dodgerblue;
+    padding: 15px 0px;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+header *{
+    margin-left: 15px;
+}
+
+
+main{
+    padding: 60px 15px 15px 15px;
+}
+
+h3{
+    scroll-margin-top: 50px;
+}
