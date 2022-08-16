@@ -12,11 +12,13 @@ SELECTOR{
 /* OUR OWN CSS CODE */
 #container{
     width: 900px;
+    padding: 10px;
 }
 
 #header{
     background-color: black;
     color: red;
+    margin-bottom: 25px;
 }
 
 
@@ -30,6 +32,7 @@ SELECTOR{
     color: navy;
     width: 250px;
     vertical-align: top;
+    margin-right: 45px;
 }
 
 p{
