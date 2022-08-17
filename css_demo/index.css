@@ -29,9 +29,17 @@ SELECTOR{
 
 .subheader{
     color: navy;
-    width: 250px;
-    vertical-align: top;
+    /* width: 250px; */
     /* margin-right: 45px; */
+    vertical-align: top;
+}
+
+.col-1{
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
 }
 
 p{
