@@ -28,13 +28,16 @@ SELECTOR{
 }
 
 .subheader{
-    display: inline-block;
     color: navy;
     width: 250px;
     vertical-align: top;
-    margin-right: 45px;
+    /* margin-right: 45px; */
 }
 
 p{
     display: inline-block;
+}
+#body{
+    display: flex;
+    justify-content: space-between;
 }
