@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 970px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #112133;
+    padding: 10px 20px;
+}
+.navbar > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 300px;
+}
+.navbar > ul > li{
+    color: white;
+    margin: 0px 5px;
+}
+span{
+    color: white;
+}
+.navbar > h1{
+    color: yellow;
+}
+/* NAVBAR */
+.main_body{
+    padding: 15px;
+}
+
+/* BODY */
+.main_img{
+    width: 100%;
+}
+/* BODY */
+
+/* SUB_BODY */
+.sub_body{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card{
+    flex: 1;
+    min-height: 200px;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card_header > img{
+    width: 30px;
+    margin-right: 10px;
+}
+.card > p{
+    margin-bottom: 10px;
+}
+
+/* SUB_BODY */
+/* ADVERTISEMENT */
+.advertisement{
+    display: flex;
+}
+.ad_card{
+    flex: 1;
+}
+.ad_card > h2{
+    margin-bottom: 10px;
+}
+.ad_card > p{
+    margin: 10px 0px;
+}
+
+/* ADVERTISEMENT */
