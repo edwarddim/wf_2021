@@ -38,3 +38,30 @@ function addCountLower(){
     var h1 = document.querySelector("#output_lower")
     h1.innerText = `You've clicked ${count_lower    } times!!`
 }
+
+// FORM CHANGES
+
+var email = ""
+function emailChange(element){
+    // STORE THE INPUT'S VALUE INSIDE THE EMAIL VARIABLE
+    email = element.value
+}
+
+
+function showEmail(){
+    alert("You are logging in with " + email)
+}
+
+function chooseLunch(element){
+    console.log(element.value)
+    confirm("Are you sure you want to eat " + element.value + " ?")
+}
+
+
+// TIMEOUT
+// 1. CALLBACK FUNCTION
+// 2. THE TIME TO WAIT (MILLISECONDS)
+function sayAlert(){
+    alert("3 seconds have passed")
+}
+setTimeout( sayAlert , 3000)

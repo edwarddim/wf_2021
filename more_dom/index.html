@@ -21,6 +21,19 @@
 
         <h1 id="output_lower">You've Clicked 0 times</h1>
         <button onclick="addCountLower()">Click Me</button>
+        <hr>
+        <p>
+            Email:
+            <input oninput="emailChange(this)" type="email" name="email" id="">
+        </p>
+        <button onclick="showEmail()">Submit</button>
+
+        <hr>
+        <select onchange="chooseLunch(this)">
+            <option>Tacos</option>
+            <option>Pasta</option>
+            <option>Sushi</option>
+        </select>
     </div>
     <script src="main.js"></script>
 </body>
