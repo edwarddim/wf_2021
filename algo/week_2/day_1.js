@@ -1,7 +1,0 @@
-function printAverageOfArray(arr){
-    // ITERATE THROUGH THE ARRAY
-        // STORE THE VALUES (SUM THE VALUES SO FAR)
-    // DIVIDE THE SUM BY THE LENGTH OF THE ARRAY
-    // PRINT THE AVERAGE
-}
-
