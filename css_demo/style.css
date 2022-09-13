@@ -28,3 +28,26 @@ SELECTOR{
 
 
 /* DESCENDANT */
+
+.container{
+    padding: 25px;
+}
+
+#header{
+    padding: 10px;
+}
+
+.subheader{
+    margin: 15px 0px;
+    width: 200px;
+    display: inline-block;
+}
+
+.subheader > h2,
+.subheader > p{
+    padding: 10px;
+}
+
+.top{
+    vertical-align: top;
+}
