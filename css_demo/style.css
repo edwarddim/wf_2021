@@ -1,0 +1,30 @@
+/* 
+
+SELECTOR{
+    ATTRIBUTES : PROPERITES;
+}
+
+*/
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* YOUR OWN CSS CODE */
+#header{
+    background-color: rebeccapurple;
+}
+
+/* DIRECT DESCENDANT */
+.subheader > h2{
+    background-color: beige;
+}
+
+.subheader > p{
+    background-color: gold;
+}
+
+
+/* DESCENDANT */
