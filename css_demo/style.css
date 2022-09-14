@@ -29,18 +29,31 @@ SELECTOR{
 
 /* DESCENDANT */
 
+
+
+
+/* START OF CONTAINER CSS */
 .container{
+    width: 970px;
     padding: 25px;
 }
 
+/* END OF CONTAINER CSS */
 #header{
     padding: 10px;
 }
 
+
 .subheader{
-    margin: 15px 0px;
-    width: 200px;
-    display: inline-block;
+    margin: 15px 15px;
+}
+
+.col-1{
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
 }
 
 .subheader > h2,
@@ -50,4 +63,8 @@ SELECTOR{
 
 .top{
     vertical-align: top;
+}
+
+.row{
+    display: flex;
 }
