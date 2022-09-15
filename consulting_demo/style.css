@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    width: 970px;
+}
+
+
+/* --------- NAVBAR ----------------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    padding: 10px;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links > li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar > h1{
+    color: white;
+}
+
+.blue-text{
+    color: dodgerblue;
+}
+
+#blue-text{
+    color: dodgerblue;
+}
+/* --------- NAVBAR ----------------- */
+
+
+/* ---------- MAIN CONTENT --------------- */
+.main-content{
+    padding: 10px;
+}
+
+.banner > img{
+    width: 100%;
+}
+
+.bg-dark{
+    background-color: black;
+}
+
+.wrench img,
+.wrench{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.card{
+    flex: 1;
+    background-color: dodgerblue;
+    padding: 15px;
+}
+
+.middle{
+    margin: 0px 10px;
+}
+
+.card-title{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.projects{
+    display: flex;
+}
+
+.card > p{
+    margin-bottom: 15px;
+}
+
+.card > button{
+    width: 150px;
+    height: 40px;
+    background-color: lightblue;
+    border-radius: 3px;
+}
+
+/* ---------- MAIN CONTENT --------------- */
