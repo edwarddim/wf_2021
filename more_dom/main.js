@@ -1,3 +1,8 @@
+
+// -------------------------------------------- //
+//              MORE DOM Mannipulation
+// -------------------------------------------- //
+
 function changeToLiteMode(){
     // WE NEED TO TARGET THE CONTAINER ELEMENT
     var containerElement = document.querySelector(".container")
@@ -38,4 +43,38 @@ function toggleImage(element){
     var temp = element.src
     element.src = element.alt
     element.alt = temp
+}
+
+
+
+// -------------------------------------------- //
+//        INPUTS / SETTIMEOUT
+// -------------------------------------------- //
+
+// var fullName = ""
+function inputHandler(element){
+//     console.log(element.value)
+//     fullName = element.value
+}
+
+
+function clickHandler(){
+    var element = document.querySelector(".fullName")
+    alert(element.value)
+}
+
+function changeHandler(element){
+    console.log(element.value)
+    // confirm("Are you sure " + element.value + " is your favorite language?")
+    confirm(`Are you sure ${element.value} is your favorite language?`)
+}
+
+
+function watermelon(){
+    alert("button has been clicked")
+
+}
+
+function test(){
+    setTimeout( watermelon, 2000)
 }

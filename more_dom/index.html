@@ -15,11 +15,26 @@
         <button onclick="changeToDarkMode()">Dark Mode</button>
 
         <br>
-        <img 
+        <!-- <img 
             onmouseover="toggleImage(this)" 
             onmouseout="toggleImage(this)" 
             src="./images/dog.jfif" 
-            alt="./images/cat.jpg" class="pic" >
+            alt="./images/cat.jpg" class="pic" > -->
+        <hr>
+        <p>
+            Full Name:
+            <input class="fullName" type="text" name="full_name" id="">
+            <button onclick="clickHandler()">Submit</button>
+        </p>
+        <p>
+            Favorite Language?
+            <select onchange="changeHandler(this)" name="" id="">
+                <option value="Python">Python</option>
+                <option value="Javacript">Javacript</option>
+                <option value="Java">Java</option>
+            </select>
+        </p>
+        <button onclick="test()">Click Me</button>
     </div>
 
     <script src="main.js"></script>
