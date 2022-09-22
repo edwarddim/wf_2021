@@ -19,3 +19,31 @@ var test2 = [-1,-4,-8]
 var testA = [1,2,3,4,5]
 
 [1,4,9,16,25]
+
+
+
+// [1,2,3,4,5,6,7,8] , 3
+
+function getSumOfArray(arr){
+    // CREATE A VARIABLE FOR KEEPING TRACK OF THE SUM
+    // ITERATE THROUGH THE ARRAY
+        // ADD THE VALUES OF THE ARRAY TO THE SUM
+    // PRINT THE SUM
+}
+
+
+function printArrayGreaterThanY(arr, y){
+    // CREATE A VARIABLE FOR KEEPING COUNT OF THE VALUES GREATER THAN Y
+    // ITERATE THROUGH THE ARRAY
+        // CHECK TO SEE IF THE VALUE IS GREATER THAN Y
+            // INCREMENT THE COUNT
+    // PRINT THE COUNT
+}
+
+
+function zeroOutNegativeValues(arr){
+    // ITERATE THROUGH THE ARRAY
+        // CHECK TO SEE IF THE VALUE IS NEGATIVE
+            // SET THE VALUE TO 0
+    // RETURN THE ARR
+}
