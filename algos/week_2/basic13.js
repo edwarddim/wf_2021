@@ -47,3 +47,9 @@ function zeroOutNegativeValues(arr){
             // SET THE VALUE TO 0
     // RETURN THE ARR
 }
+//  0   1   2   3    
+// [ a ,b  ,c  ,d,   e ] => [b,c,d,e,0]
+
+function shiftArrayVals(array){
+    // ITERATE THROUGH THE ARRAY
+}
