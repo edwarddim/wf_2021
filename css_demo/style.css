@@ -10,10 +10,26 @@ SELECTOR {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* YOUR OWN CSS CODE */
+.container{
+    width: 970px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 #header{
     background-color: black;
     color: red;
     box-shadow: 10px 5px 5px red;
+    margin-bottom: 15px;
+}
+
+.subheader{
+    width: 250px;
+    display: inline-block;
+}
+
+.top{
+    vertical-align: top;
 }
 
 .subheader > h1{

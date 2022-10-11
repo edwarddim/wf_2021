@@ -1,0 +1,33 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* YOUR OWN CSS */
+.container{
+    width: 970px;
+    padding: 10px 20px;
+}
+
+.header{
+    color: green;
+    margin-bottom: 15px;
+}
+
+.subheader{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.card{
+    display: inline-block;
+    margin: 0px 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.card > img{
+    width: 100px;
+}
