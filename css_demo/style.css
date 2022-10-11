@@ -1,0 +1,26 @@
+/* 
+SELECTOR {
+    ATTRIBUTE : PROPERTY;
+}
+*/
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* YOUR OWN CSS CODE */
+#header{
+    background-color: black;
+    color: red;
+    box-shadow: 10px 5px 5px red;
+}
+
+.subheader > h1{
+    color: white;
+    background-color: dodgerblue;
+}
+
+.subheader > p{
+    font-style: italic;
+}
