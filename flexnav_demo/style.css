@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: darkslategray;
+    padding: 15px;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+
+/* DIRECT DESCENDANT SELECTOR */
+.nav-links > li > a{
+    color: white;
+}
+
+/* DESCENDANT SELECTOR */
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
