@@ -24,8 +24,8 @@ SELECTOR {
 }
 
 .subheader{
-    width: 250px;
-    display: inline-block;
+    /* width: 250px; */
+    margin: 0px 10px;
 }
 
 .top{
@@ -39,4 +39,18 @@ SELECTOR {
 
 .subheader > p{
     font-style: italic;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.col-1{
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
 }
