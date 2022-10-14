@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 970px;
+    padding: 20px;
+}
+
+.header{
+    color: gold;
+    background-color: rebeccapurple;
+}

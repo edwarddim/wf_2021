@@ -2,6 +2,8 @@
  - Variables
  - Loops
  - Conditionals
+ - Functions
+ - Arrays
 
 # WEB DEVELOPMENT - HTML, CSS, JS
  - HTML
@@ -9,3 +11,5 @@
     - Selectors
     - Attributes
     - Positioning
+    - Lego Concept
+ - Javascript
