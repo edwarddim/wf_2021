@@ -15,7 +15,6 @@ function remove(element){
     element.remove()
 }
 
-
 function removeCookies(){
     var element = document.querySelector(".cookieBox")
     element.remove()
