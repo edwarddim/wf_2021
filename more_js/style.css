@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 970px;
+    padding: 20px;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.lite-mode{ 
+    background-color: white;
+    color: black;
+}
