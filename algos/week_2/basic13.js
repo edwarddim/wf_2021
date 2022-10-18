@@ -18,3 +18,36 @@ function printIntsAndSum0To255(){
         // ADD THE SUM SO FAR
         // PRINT THE SUM
 }
+// ------------------------------------------------------------------------------------------//
+// ------------------------------------------------------------------------------------------//
+
+// Iterate through a given array, printing each value. 
+function printArrayVals(arr){
+
+}
+
+
+// [2,4,1,6,3,8]
+// Given an array, find and print its largest element. 
+function printMaxOfArray(arr){
+    // CREATE A VARIABLE max, 0
+    // ITERATE THROUGH THE arr
+        // COMPARE THE max WITH EACH NUMBER IN THE ARRAY
+            // THE max BECOMES THE VALUE IN THE ARRAY
+    // PRINT MAX
+
+
+}
+
+//      i => INDEX
+// arr[i] => VALUE
+
+// [1,2,3,4,5]
+// Analyze an array’s values and print the average.
+function printAverageOfArray(arr){
+    // CREATE A total VARIABLE, 0
+    // ITERATE THROUGH arr
+        // ADD EACH VALUE IN ARRAY TO total
+    // PRINT THE total DIVDED BY THE length of the arr
+
+}
