@@ -51,3 +51,24 @@ function printAverageOfArray(arr){
     // PRINT THE total DIVDED BY THE length of the arr
 
 }
+
+
+
+
+
+// Create an array with all the odd integers between 1 and 255 (inclusive) and return that array.
+function returnOddsArray1to255(){
+    // CREATE AN EMPTY ARRAY
+    // LOOP FROM 1 to 255(INCLUSIVE) but only the ODD INTEGERS
+        // ADD THE ODD NUMBERS TO THE ARRAY push()
+    // RETURN THE ARRAY
+}
+
+
+// [1,2,3,4,5] => [1,4,9,16,25]
+// Square each value in a given array, returning that same array with changed values. 
+function squareArrayVals(arr){
+    // ITERATE THROUGH THE arr
+        // SQUARE THE VALUE AND CHANGE THE VALUE
+    // RETURN THE arr
+}
