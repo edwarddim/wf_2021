@@ -72,3 +72,31 @@ function squareArrayVals(arr){
         // SQUARE THE VALUE AND CHANGE THE VALUE
     // RETURN THE arr
 }
+
+
+// ------------------------------------------------------------------------- //
+
+// Given an array and a value Y, count and print the number of array values greater than Y. 
+
+// [3,6,1,8,2]
+// 4
+
+function printArrayCountGreaterThanY(arr, y){
+    // CREATE VARIABLE FOR KEEPING COUNT
+    // ITERATE THROUGH THE arr
+        // COMPARE y TO VALUES IN THE arr
+            // INCREMENT COUNT
+    // PRINT COUNT
+}
+
+
+// Given an array, move all values forward (to the left) by one index, 
+// dropping the first value and leaving a 0 (zero) value at the end of the array.
+
+// 
+// ["b", "c", "d", "d"] => ["b", "c", "d", 0]
+function shiftArrayValsLeft(arr){
+    // ITERATE THROUGH THE arr BUT STOP ONE LESS
+    // SHIFT VALUES TO THE LEFT (set value at i to equal to value at i+1)
+    // SET THE LAST VALUE TO 0 (using arr.length - 1, this gives us the last value in arr)
+}
